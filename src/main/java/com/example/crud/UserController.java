@@ -26,6 +26,8 @@ public class UserController {
             System.out.println("普通用户登录成功");
         } else if ((dbUser.getName().equals("yia") && dbUser.getPassword().equals("yia")) ) {
             System.out.println("vip用户登录成功");
+        } else if ((dbUser.getName().equals("newadd") && dbUser.getPassword().equals("newadd")) ) {
+            System.out.println("vip用户登录成功");
         }
         else{
             System.out.println("登录失败，请检查账号密码");
